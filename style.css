@@ -1,0 +1,57 @@
+/* RESET DEFAULT CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+/* PAGE STYLE */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: cursive;
+  background-color: #fffef4;
+}
+
+.calendar-div {
+  background-color: white;
+  width: 260px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.month-div {
+      margin: 0;
+    background-color: #bab1f3;
+    color: #675bb1;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.day-text-div {
+  font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: #634ee2;
+}
+
+.day-num-div {
+  font-size: 80px;
+  line-height: 1.2;
+  margin: 0;
+  font-weight: bold;
+  color: #675bb1;
+}
+
+.year-div {
+      margin: 0px 0 20px 0;
+    font-size: 20px;
+    color: #634ee2;
+    font-weight: 500;
+}
